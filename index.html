@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Habits</title>
 </head>
+
 <body>
-    <img class="logo" src="./src/images/logo.svg" alt="Logo do projeto habits">
+    <header>
+        <img class="logo" src="./assets/images/logo.svg" alt="Logo do projeto habits">
+        <button class="register">
+            <img src="./assets/images/plus.svg" alt="Botão de mais na cor roxa">
+            Registrar meu dia
+        </button>
+    </header>
+
+    <form>
+        <div class="habitants">
+            <div class="habitant">🏃‍♂️</div>
+            <div class="habitant">💧</div>
+            <div class="habitant">💪</div>
+            <div class="habitant">💤</div>
+            <div class="habitant">🐕</div>
+            <div class="habitant">🥗</div>
+        </div>
+        
+        <div class="days">
+            <div class="day">
+                <div>03/01</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="muscle">
+                <input type="checkbox" name="sleep">
+                <input type="checkbox" name="playground">
+                <input type="checkbox" name="food">
+            </div>
+
+            <div class="day">
+                <div>03/01</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="muscle">
+                <input type="checkbox" name="sleep">
+                <input type="checkbox" name="playground">
+                <input type="checkbox" name="food">
+            </div>
+        </div>
+    </form>
+    
 </body>
 </html>
