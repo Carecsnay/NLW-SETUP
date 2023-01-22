@@ -19,6 +19,29 @@ header {
 
 form {
     display: flex;
+    padding: 0px 48px;
+}
+
+.habits {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    
+}
+
+.habit {
+    /* border: 1px black solid;
+    border-radius: 8px; */
+    width: 64px;
+    height: 64px;
+    
+    font-size: 32px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .days {
@@ -39,6 +62,12 @@ form {
     justify-items: center;
     align-items: center;
     margin-bottom: 8px;
+
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #A1A1AA;
 }
 
 .register {
