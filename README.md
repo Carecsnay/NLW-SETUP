@@ -1,4 +1,4 @@
-<h1 align="center"> NLW Setup </h1>
+<h1 align="center"> NLW Setup - </h1>
 
 <p align="center">
 Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
@@ -21,6 +21,12 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   <img alt="habits" src=".github/project.jpeg" width="100%">
 </p>
 
+
+## 🔗 Deploy
+<a href="https://nlw-setup-carecsnay.vercel.app/">Vercel 🟢</a> 
+
+<a href="https://carecsnay.github.io/NLW-SETUP/">GitPages 🟢</a>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -34,8 +40,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Habits é um app para ajudar a rastrear os hábitos e otimizar a sua rotina diária.
-
-
 ## 🪪 Licença
 
 Esse projeto está sob a licença MIT.
