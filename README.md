@@ -1,4 +1,4 @@
-<h1 align="center"> NLW Setup - </h1>
+<h1 align="center"> NLW Setup </h1>
 
 <p align="center">
 Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
