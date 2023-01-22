@@ -4,7 +4,7 @@
     box-sizing: border-box; 
 }
 body {
-    background-color: #1E1E1E;
+    background-color: #09090A;
     color: #FFFFFF;
 
     height: 100vh;
@@ -15,11 +15,16 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 48px;
+    
+    width: 100%;
+    position: fixed;
+    background-color: #09090A;
 }
 
 form {
     display: flex;
-    padding: 0px 48px;
+    padding: 180px 48px 48px;
+    width: fit-content;
 }
 
 .habits {
@@ -103,4 +108,10 @@ input {
 input:checked {
     background: #8B5CF6;
     border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }
