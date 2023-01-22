@@ -23,9 +23,9 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 
 ## 🔗 Deploy
-<a href="https://nlw-setup-carecsnay.vercel.app/">Vercel 🟢</a> 
+<a href="https://nlw-setup-carecsnay.vercel.app/" target="_blank">Vercel 🟢</a> 
 
-<a href="https://carecsnay.github.io/NLW-SETUP/">GitPages 🟢</a>
+<a href="https://carecsnay.github.io/NLW-SETUP/" target="_blank">GitPages 🟢</a>
 
 ## 🚀 Tecnologias
 
