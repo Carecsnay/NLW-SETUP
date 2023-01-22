@@ -6,7 +6,7 @@ button.addEventListener('click', add);
 form.addEventListener('change', save);
 
 function add () {
-    const today = "02/02";
+    const today = new Date().toLocaleDateString('pt-br').slice(0, -5);
     // cortando o ano do resultado
     console.log(today);
     const dayExists = constructor.dayExists(today);
